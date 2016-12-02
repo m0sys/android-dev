@@ -1,0 +1,3 @@
+Welcome to Mad Libs! I will ask you to fill in words to complete a story.
+You won't be able to see the whole story until you are done filling in all the missing words.
+That's part of the fun. Click below to get Started!

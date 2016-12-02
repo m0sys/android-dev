@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Mad Libs</string>
+    <string name="main_comment">Fill in the words to complete the story!</string>
+</resources>
