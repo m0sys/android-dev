@@ -22,13 +22,13 @@ It keeps track of points gained and lost during the play session.
 > A robust application that permits the user to save tasks within an ArrayList without there being any loss in data.
 The ArrayList is then hooked to an ArrayAdapter which is set to a listView for the user to observe the data saved/added.
 
-** Mad Libs version 1.0
+** Mad Libs version 1.0**
 >
 
-** Mad Libs version 1.1
+** Mad Libs version 1.1**
 >
 
-** Animal Game
+** Animal Game**
 >
 
 
