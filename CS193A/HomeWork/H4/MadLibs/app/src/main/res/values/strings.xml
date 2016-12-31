@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mad Libs</string>
+    <string name="main_comment">Fill in the words to complete the story!</string>
+    <string name="spinner_prompt">Select Story</string>
+    <string name="prompt_text">Please type a/an %1$s.</string>
+    <string-array name="fileNames">
+        <item>Random</item>
+        <item>Tarzan Story</item>
+        <item>University Story</item>
+        <item>Cloths Story</item>
+        <item>Dance Story</item>
+    </string-array>
+
+    <string name="speech_text">Say a/an %1$s.</string>
+    <string name="dialog_title">Choose Story</string>
+</resources>

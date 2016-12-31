@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Animal Game</string>
+    <string name="instructions">Think of an animal, then press Play. I will try to guess it using Yes/No questions! The more you play, the smarter I get.</string>
+    <string name="animalName">What was your animal?</string>
+    <string name="animalQuestion">Give me a question describes a/an %1$s.  </string>
+    <string name="questionType">And is your %1$s the \'Yes\' answer or the \'No\' answer?</string>
+</resources>
