@@ -16,7 +16,7 @@
 
 **BerkeleyAdmissionQuizApp**
 > A dumb introductory application to android that asks the user, which of the two number buttons present is greatest. 
-It keeps track of points gained and lost during the play session.
+It also keeps track of points gained and lost during the play session by dynamically updating a TextView.
 
 **To Do List**
 > A robust application that permits the user to save tasks within an ArrayList without there being any loss in data.
