@@ -1,4 +1,4 @@
-# Android CS193a (Complete
+# Android CS193a (Completed)
 ## Licensing Information: READ LICENSE
 **Stanford Fall 2016,** 
 >This repository contains 5 android applications. These applications follow the guidlines suggested by Stanford's Fall 2016 CS193a course which was instructed by Marty Stepp.
