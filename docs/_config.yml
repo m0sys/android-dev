@@ -12,7 +12,7 @@ url: "https://mhd53.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: "/Android"
+baseurl: ""
 
 # Local Server settings
 port: 8000
