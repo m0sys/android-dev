@@ -17,7 +17,7 @@
   <meta name="description" content="Blog and website of Mohammad Darabi, blogging mainly about personal projects.">
   <meta name="author" content="Mohammad Darabi">
   <meta name="keywords" content="smith, jones, personal, jekyll, theme">
-  <link rel="canonical" href="/Android/blog/">
+  <link rel="canonical" href="/Android/blog/page2/">
   <title>mhd53 | Blog</title>
 
   <!-- Bootstrap Core CSS -->
@@ -170,18 +170,18 @@
 <!-- Post List Start -->
 
 <h4 align="left">
-  <strong>27 Jun 2015</strong>
+  <strong>19 Jun 2015</strong>
   <small>.
     <a class="category" href="/Android/categories/tech.html">
       tech
     </a>
   .</small>
   <br class="visible-xs-block">
-  <a href="/Android/tech/2015/06/27/welcome.html">
-    <strong>Welcome to { Personal } Jekyll Theme!</strong>
+  <a href="/Android/tech/2015/06/19/writing-posts.html">
+    <strong>Writing posts</strong>
   </a>
   <br class="visible-xs-block">
-  <small><a href="/Android/tech/2015/06/27/welcome.html#disqus_thread">Comments</a></small>
+  <small><a href="/Android/tech/2015/06/19/writing-posts.html#disqus_thread">Comments</a></small>
 </h4>
 
 <!-- Post List End -->
@@ -191,18 +191,18 @@
 <!-- Post List Start -->
 
 <h4 align="left">
-  <strong>25 Jun 2015</strong>
+  <strong>12 Jun 2015</strong>
   <small>.
     <a class="category" href="/Android/categories/tech.html">
       tech
     </a>
   .</small>
   <br class="visible-xs-block">
-  <a href="/Android/tech/2015/06/25/initial-setup.html">
-    <strong>Initial setup</strong>
+  <a href="/Android/tech/2015/06/12/timeline-tutorial.html">
+    <strong>Adding a life event in the Timeline</strong>
   </a>
   <br class="visible-xs-block">
-  <small><a href="/Android/tech/2015/06/25/initial-setup.html#disqus_thread">Comments</a></small>
+  <small><a href="/Android/tech/2015/06/12/timeline-tutorial.html#disqus_thread">Comments</a></small>
 </h4>
 
 <!-- Post List End -->
@@ -212,18 +212,18 @@
 <!-- Post List Start -->
 
 <h4 align="left">
-  <strong>24 Jun 2015</strong>
+  <strong>11 Jun 2015</strong>
   <small>.
     <a class="category" href="/Android/categories/tech.html">
       tech
     </a>
   .</small>
   <br class="visible-xs-block">
-  <a href="/Android/tech/2015/06/24/intro-layout-tutorial.html">
-    <strong>Modifying the Header</strong>
+  <a href="/Android/tech/2015/06/11/social-buttons-tutorial.html">
+    <strong>Modifying the social buttons</strong>
   </a>
   <br class="visible-xs-block">
-  <small><a href="/Android/tech/2015/06/24/intro-layout-tutorial.html#disqus_thread">Comments</a></small>
+  <small><a href="/Android/tech/2015/06/11/social-buttons-tutorial.html#disqus_thread">Comments</a></small>
 </h4>
 
 <!-- Post List End -->
@@ -233,39 +233,18 @@
 <!-- Post List Start -->
 
 <h4 align="left">
-  <strong>22 Jun 2015</strong>
+  <strong>10 Jun 2015</strong>
   <small>.
     <a class="category" href="/Android/categories/tech.html">
       tech
     </a>
   .</small>
   <br class="visible-xs-block">
-  <a href="/Android/tech/2015/06/22/web-app-mode.html">
-    <strong>Web app mode</strong>
+  <a href="/Android/tech/2015/06/10/contact-tutorial.html">
+    <strong>Modifying the Contact</strong>
   </a>
   <br class="visible-xs-block">
-  <small><a href="/Android/tech/2015/06/22/web-app-mode.html#disqus_thread">Comments</a></small>
-</h4>
-
-<!-- Post List End -->
-
-          
-            
-<!-- Post List Start -->
-
-<h4 align="left">
-  <strong>20 Jun 2015</strong>
-  <small>.
-    <a class="category" href="/Android/categories/tech.html">
-      tech
-    </a>
-  .</small>
-  <br class="visible-xs-block">
-  <a href="/Android/tech/2015/06/20/blog-tutorial.html">
-    <strong>Setting up the Blog</strong>
-  </a>
-  <br class="visible-xs-block">
-  <small><a href="/Android/tech/2015/06/20/blog-tutorial.html#disqus_thread">Comments</a></small>
+  <small><a href="/Android/tech/2015/06/10/contact-tutorial.html#disqus_thread">Comments</a></small>
 </h4>
 
 <!-- Post List End -->
@@ -281,11 +260,11 @@
   <h4>
 
   
-
+    <a href="/Android/blog/" class="previous">Newer Posts</a>
   
 
   
-    <a href="/Android/blog/page2/" class="next">Older Posts</a>
+
   
 
   </h4>
@@ -373,7 +352,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'Blog', 'http://localhost:8000/Android/blog/');
+    history.pushState({}, 'Blog', 'http://localhost:8000/Android/blog/page2/');
   }
 }
 </script>
@@ -395,13 +374,13 @@ function addTohistory() {
       new Hammer(page).on('swipeleft', function(event) {
         addTohistory();
         
-          document.location.replace("/Android/blog/page2/");
+          document.location.replace("/Android");
         
       });
       new Hammer(page).on('swiperight', function(event) {
         addTohistory();
         
-          document.location.replace("/Android");
+          document.location.replace("/Android/blog/");
         
       });
     </script>
