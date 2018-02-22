@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Blog and website of Mohammad Darabi, blogging mainly about personal projects.">
   <meta name="author" content="Mohammad Darabi">
-  <meta name="keywords" content="smith, jones, personal, jekyll, theme">
+  <meta name="keywords" content="android, project, personal, mhd53">
   <link rel="canonical" href="/Android/blog/">
   <title>mhd53 | Blog</title>
 
@@ -27,6 +27,13 @@
   <link href="/Android/css/cayman.css" rel="stylesheet">
   <link href="/Android/css/grayscale.css" rel="stylesheet">
   
+
+  <!-- MHD53 CSS -->
+  <link href="/Android/css/imageViewer.css" rel="stylesheet">
+  <link href="/Android/css/styles.css" rel="stylesheet">
+
+  <!-- lightbox CSS -->
+  <link href="/Android/css/lightbox.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -95,9 +102,15 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
+      <a class="navbar-brand page-scroll" href="/Android/">
+
+      <!-- div containing liquid variables to access via javascript -->  
+      <div class="liquid-vars" baseurl="/Android/" url="http://localhost:8000/"></div>  
+
       
-        <a class="navbar-brand" href="/Android/">
+
       
+
           <div>
             
               <img src="/Android/img/black-lab-glass.ico" alt="">
@@ -115,6 +128,14 @@
             <li>
             
                 <a href="/Android/#about"> About </a>
+            
+            </li>
+          
+            <li>
+            
+              
+                <a href="/Android/blog/"> Blog </a>
+              
             
             </li>
           
@@ -433,6 +454,14 @@ function addTohistory() {
   
 
 <!-- Gesture Navigation / Swipe Instruction End -->
+
+
+
+<!-- MHD53 scripts -->
+<script src="/Android/js/script.js"></script>
+
+<!-- lightbox script -->
+<script src="/Android/js/lightbox.js"></script>
 
 
 
