@@ -32,6 +32,6 @@
       "type": "image/png"
     }
   ],
-  "start_url": "http://localhost:8000/Android",
+  "start_url": "http://localhost:7000/Android",
   "display": "standalone"
 }

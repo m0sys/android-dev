@@ -111,7 +111,7 @@
       <a class="navbar-brand page-scroll" href="/Android/">
 
       <!-- div containing liquid variables to access via javascript -->  
-      <div class="liquid-vars" baseurl="/Android/" url="http://localhost:8000/"></div>  
+      <div class="liquid-vars" baseurl="/Android/" url="http://localhost:7000/"></div>  
           <div>
             
               <img src="/Android/img/black-lab-glass.ico" alt="">
@@ -189,17 +189,11 @@
     <div class="col-md-10 col-md-offset-1">
       <h2 id="about">About</h2>
 
-<p>Android development was one of my greatest experience so far in my programming career. Starting around mid November 2016, I found this amazing course online which was an android version of the best online course you could find for IOS development, namley <em>CS193</em>. My main focus during the time I took the course was to finish it within 2 months. That being my goal I was ready to put aside what others thought as being important, and focused on what I enjoyed. Android development with the help of Matry Stepp couldn’t have been any more easier to learn.</p>
+<p>Android development was one of my greatest experience so far in my programming career. Starting around mid November 2016, I found this amazing course online which was an android version of the best online course you could find for IOS development, namley <em>CS193p</em>. My main focus during the time I took the course was to finish it within 2 months. That being my goal I was ready to put aside what others thought as being important, and focused on what I enjoyed. Android development with the help of <em>Matry Stepp</em> couldn’t have been any more easier to learn.</p>
 
 <p><small>
 	“Believing that the dots will connect down the road, will give you the confidence to follow your heart, even when it leads you off the well-worn path” - <strong><em>Steve Jobs</em></strong>
 </small></p>
-
-<p>Support the repo by starring or forking it!</p>
-
-<iframe src="https://ghbtns.com/github-btn.html?user=mhd53&amp;repo=Android&amp;type=star&amp;count=false&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-
-<iframe src="https://ghbtns.com/github-btn.html?user=mhd53&amp;repo=Android&amp;type=fork&amp;count=false&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
     </div>
   </div>
@@ -276,8 +270,8 @@
 
 <div class="main-content">
 	<h1 class="cayman-theme">Android CS193a <br />(Completed)</h1>
-	<h2>License Information: <br /><a> READ License</a></h2>
-	<h3>Stanford Fall 2016, </h3>
+	<h2>License Information: <br /><a href="https://github.com/mhd53/Android/blob/master/LICENSE">READ License</a></h2>
+	<h3>Stanford Fall 2016,</h3>
 	<blockquote>
 		<p>
 		This repository contains 5 <em>Android</em> applications. These applications follow the guidlines suggested by <strong>Stanford's Fall 2016 CS193a</strong> with <em>Marty Stepp</em>, a guy who loves dogs, as the course instructor. 
@@ -323,7 +317,7 @@
 		<h3 id="second-elem">To Do List</h3>
 		<blockquote>
 			<p>
-			A robust applicaton that permits the user to save tasks within an <strong>ArrayList</strong> without there beining and data losses when the application gets terminated. The <strong>ArrayList</strong> is saved and is accesible for use during the next session. The <strong>ArrayList</strong> is hooked to an <strong>ArrayAdapter</strong> which is set to the <strong>listView</strong> for the user to observe the data that has been saved or added to the <strong>ArrayList</strong>.
+			A robust applicaton that permits the user to save tasks within an <strong>ArrayList</strong> without there being any data losses when the application gets terminated. The <strong>ArrayList</strong> is saved and is accesible for use during the next session. The <strong>ArrayList</strong> is hooked to an <strong>ArrayAdapter</strong> which is set to the <strong>listView</strong> for the user to observe the data that has been saved or added to the <strong>ArrayList</strong>.
 			</p>
 		</blockquote>
 
@@ -342,7 +336,7 @@
 		<h3 id="third-elem">Mad Libs version 1.0</h3>
 		<blockquote>
 			<p>
-			A fun mobile version of the classical mad libs game which was invented in 1953 by <em>Leonard Stern</em> &amp; <em>Roger Price</em>. This app contains 4 stories selected randomley everytime the user clicks on the <strong>Play</strong> button. The app asks the user to input words within a specific grammatical catergory. After asking all the required words to complete the story the user is presented with their mad lib story.
+			A fun mobile version of the classical mad libs game which was invented in 1953 by <em>Leonard Stern</em> &amp; <em>Roger Price</em>. This app contains 4 stories selected randomley everytime the user clicks on the Play button. The app asks the user to input words within a specific grammatical catergory. After asking all the required words to complete the story the user is presented with their mad lib story.
 			</p>
 		</blockquote>
 
@@ -373,7 +367,7 @@
 				<li>Added a <strong>Scroll View</strong> premitting the user to choose the story they want or if they want the computer to choose for them at random.</li> 
 				<li>Added voice recognition, allowing the user to tell the words they want in their mad lib or type them.</li>
 				<li>Added <strong>Text to Speech</strong>, telling the user what type of word it requires.</li> 
-				<li>Added a pop up window that is activated when the user clicks on the <strong>Choose New Story</strong> button, allow the user to select the story for the next session.</li>
+				<li>Added a pop up window that is activated when the user clicks on the "Choose New Story" button, allowing the user to select the story for the next session.</li>
 				<li>A beautiful user interface has been developed with a more consistent color scheme.</li> 
 			</ul>
 		</blockquote>
@@ -423,7 +417,7 @@
 		<h3 id="fifth-elem">Animal Game</h3>
 		<blockquote>
 			<p>
-			This is an animal game that askes the user to think about an animal. The app contains a database of <strong>Edges</strong> &amp; <strong>Nodes</strong>. Each node contains a <em>nodeID</em>, a <em>type</em>, a <em>text</em>, a <em>user-ID</em> for further expansion of the database, a <em>time_stamp</em>, and a <em>view_counter</em> as set properties. The nodeID is used in each edge to reference which node points to which, and this is defined in each edge by the <em>parentID</em> &amp; <em>childID</em> properties. The type property can take on only two different values, <em>question</em> &amp; <em>answer</em>. Each edge also contains a unique <em>graphID</em> &amp; a binary value <em>type</em> property with values, <em>yes</em> &amp; <em>no</em>. The app cylces through the the nodes with the help of the graph depicted by the edges to reach the end node. This is all implemented using android's built in <strong>SQLite</strong> api by doing a set of queries based on the user's interaction with the app. After reaching the last node, depending on whether the app was able to guess correctly the animal that the user had in mind, the user will have the option of adding on to the database by inputting the animals name and a question that differentiates it from the animal the app guessed.     
+			This is an animal game that askes the user to think about an animal. The app contains a database of <strong>Edges</strong> &amp; <strong>Nodes</strong>. Each node contains a <em>nodeID</em>, a <em>type</em>, a <em>text</em>, a <em>user-ID</em> for further expansion of the database, a <em>time_stamp</em>, and a <em>view_counter</em> as set properties. The nodeID is used in each edge to reference which node points to which, and this is defined in each edge by the <em>parentID</em> &amp; <em>childID</em> properties. The type property can take on only two different values, <em>question</em> &amp; <em>answer</em>. Each edge also contains a unique <em>graphID</em> &amp; a binary value <em>type</em> property with values, <em>yes</em> &amp; <em>no</em>. The app cylces through the the nodes with the help of the graph depicted by the edges to reach the end node. This is all implemented using android's built in <strong>SQLite</strong> api by doing a set of queries based on the user's interaction with the app. After reaching the last node, depending on whether the app was able to guess correctly the animal that the user had in mind, the user will have the option of adding on to the database by inputting the animal's name and a question that differentiates it from the animal the app guessed.     
 			</p>
 		</blockquote>
 
@@ -565,7 +559,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, '', 'http://localhost:8000/Android/');
+    history.pushState({}, '', 'http://localhost:7000/Android/');
   }
 }
 </script>
